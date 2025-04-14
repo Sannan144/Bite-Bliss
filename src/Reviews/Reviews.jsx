@@ -69,7 +69,7 @@ const Reviews = () => {
           </div>
         ))}
       </div>
-      <div className="swiper-pagination mt-4"></div>
+      <div className="swiper-pagination mt-4 opacity-[1] md:opacity-0"></div>
     </div>
   );
 };

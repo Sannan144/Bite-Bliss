@@ -35,7 +35,7 @@ const Menu = ({ isOpen, setIsOpen }) => {
     <div
       ref={menu}
       className="w-[320px] h-screen fixed top-0 z-[100] transition-transform duration-300 
-      bg-white/80 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] flex flex-col justify-center items-center"
+      bg-white flex flex-col justify-center items-center"
     >
       <button
         onClick={menuClose}
